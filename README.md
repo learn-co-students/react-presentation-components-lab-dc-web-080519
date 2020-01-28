@@ -13,10 +13,13 @@ else. But, as we've seen, there's something blissful about being "simple" if you
 are a component.
 
 In this lab, we'll illustrate this principle by building two components: a
-`SimpleComponent` and a `SimplerComponent`. Our `SimpleComponent` will be
+`SimpleComponent` and a `SimplerComponent`.
+Our `SimpleComponent` will be
 presentational, but it will have a tiny bit of state and therefore be less
-stable than our `SimplerComponent`. Specifically, our `SimpleComponent` will
-experience wild mood fluctuations. Our `SimplerComponent`, meanwhile, will be
+stable than our `SimplerComponent`.
+Specifically, our `SimpleComponent` will
+experience wild mood fluctuations.
+Our `SimplerComponent`, meanwhile, will be
 written as a "stateless functional" component and therefore be steadfastly
 happy.
 
